@@ -1,0 +1,26 @@
+{
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "root": [
+                    "./src"
+                ],
+                "alias": {
+                    "@assets": "./src/assets",
+                    "@components": "./src/components",
+                    "@theme": "./src/theme",
+                    "@globalUI": "./src/globalUI",
+                    "@navigations": "./src/navigations",
+                    "@screens": "./src/screens",
+                    "@helpers": "./src/helpers",
+                    "@constants": "./src/constants",
+                    "@i18n": "./src/i18n",
+                    "@reduxManager": "./src/reduxManager",
+                    "@services": "./src/services",
+                    "@utils": "./src/utils"
+                }
+            }
+        ]
+    ]
+}
