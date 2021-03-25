@@ -14,7 +14,6 @@ class OnbordingScreen extends Component {
     };
 
     handlePress = () => {
-        console.log(12312);
         this.props.navigation.navigate('LoginScreen');
     }
 
